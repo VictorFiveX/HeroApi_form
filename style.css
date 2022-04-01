@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+body{
+    background: #859fcfda;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img#sph{
+    border: 1px solid #000;
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px #545457;
+    display: list-item;
+}
+img#homemsuper{
+    border: 1px solid #000;
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: list-item;
+    box-shadow: 5px 2px 5px #545457;
+}
+img#varioshero{
+    border: 1px solid #000;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: -119px;
+    box-shadow: 5px 2px 5px #545457;
+}
+
+img#varioshero1{
+    border: 1px solid #000;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: -145px;
+    margin-left: 435px;
+    box-shadow: 5px 2px 5px #545457;
+}
+
+img#sphup{
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 5px 2px 5px #545457;
+    width: 145px;
+    height: 800px;
+    display: list-item;
+    margin-top: -219px;
+    margin-left: 795px;
+}
+
+.grid{
+    
+    
+    width: 600px;
+    height: 800px;
+    margin-left: 190px;
+    display: grid;
+    background: rgb(218, 220, 250);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 5px #BEC1E6;
+    border: 1px solid #000;
+    
+}
+
+h1{
+    padding: 2px;
+    border: 1px solid #000;
+    width: 410px;
+    height: 30px;
+    text-align: center;
+    font: 32px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    border-radius: 5px;
+    text-shadow: 15px 15px 15px color #BEC1E6;
+    box-shadow: 5px 5px 5px #BEC1E6;
+    margin-left: 100px;
+
+}
+h2{
+    padding: 2px;
+    border: 1px solid #000;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    font: 16px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    border-radius: 5px;
+    text-shadow: 15px 15px 15px color #BEC1E6;
+    box-shadow: 5px 5px 5px #BEC1E6;
+    margin-left: 170px;
+    margin-top: 27px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 25px;
+    
+ 
+}
+p#namehero{
+    margin-left: 94px;
+    margin-top: -39px;
+}
+input#heronamep{
+    width: 200px;
+    height: 20px;
+    margin-top: -74px;
+    margin-left: 290px;
+}
+p#realname{
+    width: 200px;
+    height: 20px;
+    margin-top: -32px;
+    margin-left: 94px;
+}
+input#realname{
+    width: 200px;
+    height: 20px;
+    margin-top: -68px;
+    margin-left: 290px;
+}
+
+p#team{
+    width: 200px;
+    height: 20px;
+    margin-top: -26px;
+    margin-left: 94px;
+}
+
+input#teamp{
+    width: 200px;
+    height: 20px;
+    margin-top: -67px;
+    margin-left: 290px;
+}
+
+p#rating{
+    width: 200px;
+    height: 20px;
+    margin-top: -38px;
+    margin-left: 94px;
+}
+
+p#estrela{
+    margin-left: 209px;
+    margin-top: -65px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-family: Avenger;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000;
+    border-radius: 15px;
+    text-shadow: 15px 15px 15px color #BEC1E6;
+    box-shadow: 5px 5px 5px #8185b8;
+    background-color: #225dab8e;
+}
+button#submit{
+    margin-top: -1px;
+    margin-left: 85px;
+}
+
+button#reset{
+    margin-top: -75px;
+    margin-left: 212px;
+}
+
+button#Mostrar{
+    margin-top: -33px;
+    margin-left: 43px;
+}
+
+button#del{
+    margin-top: -73px;
+    margin-left: 154px;
+}
+
+button#alter{
+    margin-top: -98px;
+    margin-left: 266px;
+}
+
+img#hero{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    margin-left: 412px;
+    margin-top: -222px;
+}
+
+p#Avaliacao{
+    width: 200px;
+    height: 20px;
+    margin-top: -38px;
+    margin-left: 94px;
+}
+input#rating{
+    width: 200px;
+    height: 20px;
+    margin-top: -68px;
+    margin-left: 290px;
+}
+
+p#id{
+    margin-top: -31px;
+    margin-left: 96px;
+}
+input#id{
+    width: 200px;
+    height: 20px;
+    margin-top: -75px;
+    margin-left: 290px;
+}

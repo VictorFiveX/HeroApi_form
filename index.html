@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form class="grid" action="v1/Api.php" method="post">
+        <h1>Formulario de Herois</h1>
+        <h2>Insira as informacoes</h2>
+        <img id="varioshero" src="gifs/varioshero.gif" alt="varioshero">
+        <img id="varioshero1" src="gifs/varioshero.gif" alt="varioshero">
+        <p id="id">Id:</p> 
+        <input type="text" name="id" id="id">
+        <p id="namehero">Nome de Heroi:</p>
+        <input type="text" name="name" id="heronamep">
+        <p id="realname">Nome Verdadeiro: </p> 
+        <input type="text" name="realname" id="realname">
+        <p id="team">Time Afiliado:</p>
+        <input type="text" name="teamaffiliation" id="teamp">
+        <p id="Avaliacao">Avaliacao:</p>
+        <input type="number" name="rating" id="rating">
+
+
+        <button id="submit" type="submit" value="Adicionar heroi" name = "createhero" formmethod="post" >Enviar</button>
+        <button id="reset" type="reset">Limpar</button>
+        <button id="Mostrar" type="submit" value="Mostrar heroi" name = "getheroes" formmethod="post" >Herois</button>
+
+        <button id="del" type="submit" value="Deletar heroi" name = "deletehero" formmethod="post" >Deletar</button>
+
+        <button id="alter" type="submit" value="Atualizar heroi" name = "updatehero" formmethod="post" >Alterar</button>
+        <img id="hero" src="gifs/hero.gif" alt="hero">
+
+
+    </form>
+</body>
+</html>
+
+
+
+<!--
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	
+	  <form action="v1/Api.php" method="post">
+	  	<h1>ADICIONAR HEROI</h1>
+		  <p>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" id="contato"></p>
+		  <p>Realname:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="realname" id="contato"></p>
+	    <p>Rating:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="rating" id="contato"></p>
+	    <p>Team affiliation:&nbsp;<input type="text" name="teamaffiliation" id="contato"></p>
+         
+       <input type="submit" value="Adicionar heroi" name = "createhero"/>
+
+    </form>
+
+    <br><br> 
+
+    <form action="v1/Api.php" method="post">
+    	<h1>ATUALIZAR HEROI</h1>
+	    <p>ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="id" id="contato"></p>
+		  <p>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" id="contato"></p>
+		  <p>Realname:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="realname" id="contato"></p>
+	    <p>Rating:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="rating" id="contato"></p>
+	    <p>Team affiliation:&nbsp;<input type="text" name="teamaffiliation" id="contato"></p>
+
+	    <input type="submit" value="Atualizar heroi" name = "updatehero"/>
+
+    </form>
+
+    <br><br> 
+
+    <form action="v1/Api.php" method="post">
+    	<h1>DELETAR HEROI</h1>
+	    <p>ID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="id" id="contato"></p>
+
+	    <input type="submit" value="Deletar heroi" name = "deletehero"/>
+    	
+    </form>
+
+   <br><br> 
+
+    <form method="post" action = "v1/Api.php"> 
+    	<h1>MOSTRAR HEROI</h1>
+    	<input type="submit" value="Mostrar heroi" name = "getheroes"/></form>
+    
+
+</body>
+</html>
+
+
+
+-->
